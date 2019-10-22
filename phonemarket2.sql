@@ -1,22 +1,22 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : localhost_3306
-Source Server Version : 50720
+Source Server         : test
+Source Server Version : 50527
 Source Host           : localhost:3306
 Source Database       : phonemarket2
 
 Target Server Type    : MYSQL
-Target Server Version : 50720
+Target Server Version : 50527
 File Encoding         : 65001
 
-Date: 2019-03-14 21:37:19
+Date: 2019-09-18 13:53:43
 */
 
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for `address`
+-- Table structure for address
 -- ----------------------------
 DROP TABLE IF EXISTS `address`;
 CREATE TABLE `address` (
@@ -53,7 +53,7 @@ INSERT INTO `address` VALUES ('13', '山东省', '青岛市', '黄岛区', '山�
 INSERT INTO `address` VALUES ('14', '北京市', '市辖区', '东城区', '阿达', '15', '啊啊', '1231231231', '阿达', '-1');
 
 -- ----------------------------
--- Table structure for `admins`
+-- Table structure for admins
 -- ----------------------------
 DROP TABLE IF EXISTS `admins`;
 CREATE TABLE `admins` (
@@ -79,7 +79,7 @@ INSERT INTO `admins` VALUES ('3', 'userAdmin', '123456', '1234567890', '2018-07-
 INSERT INTO `admins` VALUES ('5', '海绵宝宝', '123456', '110', '2018-07-29', '2', '2');
 
 -- ----------------------------
--- Table structure for `areas`
+-- Table structure for areas
 -- ----------------------------
 DROP TABLE IF EXISTS `areas`;
 CREATE TABLE `areas` (
@@ -3240,7 +3240,7 @@ INSERT INTO `areas` VALUES ('659003', '图木舒克市', '659000');
 INSERT INTO `areas` VALUES ('659004', '五家渠市', '659000');
 
 -- ----------------------------
--- Table structure for `banner`
+-- Table structure for banner
 -- ----------------------------
 DROP TABLE IF EXISTS `banner`;
 CREATE TABLE `banner` (
@@ -3250,21 +3250,23 @@ CREATE TABLE `banner` (
   `banner_Img` varchar(255) DEFAULT NULL,
   `banner_State` int(11) DEFAULT '1' COMMENT '1正常 -1删除 2禁用',
   PRIMARY KEY (`banner_Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of banner
 -- ----------------------------
-INSERT INTO `banner` VALUES ('1', '小米MIX一面科技，一面艺术活动Banner', 'goods/detail?goodsId=20', '500932f1fd1d466bb48c0b837d71570b.jpg', '1');
-INSERT INTO `banner` VALUES ('2', '主食活动banner', 'goods/detail?goodsId=6', '6e11ffea587f46658c33de04d96b8782.jpg', '1');
-INSERT INTO `banner` VALUES ('3', '外卖节活动banner', 'goods/detail?goodsId=12', '6b295cd3efac493d8fe7e2b001e2232d.jpg', '1');
-INSERT INTO `banner` VALUES ('4', '外卖大赛活动banner', 'goods/detail?goodsId=16', '48090bf42cde41bbb3cb80bd71ab110b.jpg', '1');
-INSERT INTO `banner` VALUES ('5', '面点王活动banner', 'goods/detail?goodsId=18', '4fc8f2fbd7774090830cce897f810e54.jpg', '1');
-INSERT INTO `banner` VALUES ('6', '元宵活动', 'goods/detail?goodsId=9', '3718d67c1eaf4cbe8c6ab5883b8c7903.jpg', '1');
-INSERT INTO `banner` VALUES ('8', '提莫大魔王活动', 'goods/detail?goodsId=4', 'banner4.jpg', '2');
+INSERT INTO `banner` VALUES ('1', '小米MIX一面科技，一面艺术活动Banner', 'goods/detail?goodsId=20', '500932f1fd1d466bb48c0b837d71570b.jpg', '-1');
+INSERT INTO `banner` VALUES ('2', '主食活动banner', 'goods/detail?goodsId=6', '6e11ffea587f46658c33de04d96b8782.jpg', '-1');
+INSERT INTO `banner` VALUES ('3', '外卖节活动banner', 'goods/detail?goodsId=12', '6b295cd3efac493d8fe7e2b001e2232d.jpg', '-1');
+INSERT INTO `banner` VALUES ('4', '外卖大赛活动banner', 'goods/detail?goodsId=16', '48090bf42cde41bbb3cb80bd71ab110b.jpg', '-1');
+INSERT INTO `banner` VALUES ('5', '面点王活动banner', 'goods/detail?goodsId=18', '4fc8f2fbd7774090830cce897f810e54.jpg', '-1');
+INSERT INTO `banner` VALUES ('6', '元宵活动', 'goods/detail?goodsId=9', '3718d67c1eaf4cbe8c6ab5883b8c7903.jpg', '-1');
+INSERT INTO `banner` VALUES ('8', '提莫大魔王活动', 'goods/detail?goodsId=4', 'banner4.jpg', '-1');
+INSERT INTO `banner` VALUES ('9', '天海广纳商城演示', 'http://www.haina365.com.cn/', 'd88cc81fb35d4f4e9bc38f838c489ce6.png', '1');
+INSERT INTO `banner` VALUES ('10', '公司简介', 'http://www.haina365.com.cn/', 'bbe220b830554977abfaa23b4a33f6ea.png', '1');
 
 -- ----------------------------
--- Table structure for `cart`
+-- Table structure for cart
 -- ----------------------------
 DROP TABLE IF EXISTS `cart`;
 CREATE TABLE `cart` (
@@ -3278,7 +3280,7 @@ CREATE TABLE `cart` (
   KEY `cartUser` (`cart_User`),
   CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`cart_User`) REFERENCES `users` (`user_Id`),
   CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`cart_Goods`) REFERENCES `goods` (`goods_Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=59 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of cart
@@ -3286,10 +3288,9 @@ CREATE TABLE `cart` (
 INSERT INTO `cart` VALUES ('51', '19', '1', '2199', '9');
 INSERT INTO `cart` VALUES ('52', '1', '1', '2599', '14');
 INSERT INTO `cart` VALUES ('56', '2', '1', '3299', '14');
-INSERT INTO `cart` VALUES ('58', '4', '1', '3599', '15');
 
 -- ----------------------------
--- Table structure for `cities`
+-- Table structure for cities
 -- ----------------------------
 DROP TABLE IF EXISTS `cities`;
 CREATE TABLE `cities` (
@@ -3651,7 +3652,7 @@ INSERT INTO `cities` VALUES ('654300', '阿勒泰地区', '650000');
 INSERT INTO `cities` VALUES ('659000', '省直辖行政单位', '650000');
 
 -- ----------------------------
--- Table structure for `evaimg`
+-- Table structure for evaimg
 -- ----------------------------
 DROP TABLE IF EXISTS `evaimg`;
 CREATE TABLE `evaimg` (
@@ -3778,7 +3779,7 @@ INSERT INTO `evaimg` VALUES ('237', 'c993a8b2f2654837a259ebe2a3d3f7b6.jpg', '74'
 INSERT INTO `evaimg` VALUES ('238', 'c993a8b2f2654837a259ebe2a3d3f7b6.jpg', '75');
 
 -- ----------------------------
--- Table structure for `evaluate`
+-- Table structure for evaluate
 -- ----------------------------
 DROP TABLE IF EXISTS `evaluate`;
 CREATE TABLE `evaluate` (
@@ -3847,7 +3848,7 @@ INSERT INTO `evaluate` VALUES ('74', '9', '', '2018-08-13', '14', '-1', '3');
 INSERT INTO `evaluate` VALUES ('75', '9', '', '2018-08-13', '14', '-1', '3');
 
 -- ----------------------------
--- Table structure for `funs`
+-- Table structure for funs
 -- ----------------------------
 DROP TABLE IF EXISTS `funs`;
 CREATE TABLE `funs` (
@@ -3881,7 +3882,7 @@ INSERT INTO `funs` VALUES ('14', '基本资料', 'view/admininfo', '13', 'myfram
 INSERT INTO `funs` VALUES ('15', '修改密码', 'view/updatepass', '13', 'myframe');
 
 -- ----------------------------
--- Table structure for `goods`
+-- Table structure for goods
 -- ----------------------------
 DROP TABLE IF EXISTS `goods`;
 CREATE TABLE `goods` (
@@ -3908,8 +3909,8 @@ CREATE TABLE `goods` (
 -- ----------------------------
 INSERT INTO `goods` VALUES ('1', '保健品1', '2599', '89', '1', '4', '金色', 'time.jpg', '-1', '', '11');
 INSERT INTO `goods` VALUES ('2', '保健品1', '3299', '79', '1', '2', '金色', 'time.jpg', '1', '', '48');
-INSERT INTO `goods` VALUES ('3', '保健品1', '3999', '93', '1', '4', '黑色', 'time.jpg', '1', '', '7');
-INSERT INTO `goods` VALUES ('4', '保健品1', '3599', '92', '1', '5', '黑色', 'time.jpg', '1', '', '9');
+INSERT INTO `goods` VALUES ('3', '保健品1', '3999', '90', '1', '4', '黑色', 'time.jpg', '1', '', '10');
+INSERT INTO `goods` VALUES ('4', '保健品1', '3599', '91', '1', '5', '黑色', 'time.jpg', '1', '', '10');
 INSERT INTO `goods` VALUES ('5', '保健品1', '350', '90', '1', '2', '白色', 'time.jpg', '1', '', '10');
 INSERT INTO `goods` VALUES ('6', '保健品1', '7299', '95', '1', '4', '白色', 'time.jpg', '1', '', '5');
 INSERT INTO `goods` VALUES ('7', '保健品1', '3599', '95', '5', '3', '红色', 'time.jpg', '1', '', '5');
@@ -3926,7 +3927,7 @@ INSERT INTO `goods` VALUES ('17', '保健品1', '799', '99', '2', '2', '粉色',
 INSERT INTO `goods` VALUES ('18', '保健品1', '1499', '97', '2', '2', '红色', 'time.jpg', '2', '', '3');
 INSERT INTO `goods` VALUES ('19', '保健品1', '2199', '98', '2', '3', '银色', 'time.jpg', '2', '', '2');
 INSERT INTO `goods` VALUES ('20', '保健品1', '1299', '-44', '2', '3', '蓝色', 'time.jpg', '2', '', '144');
-INSERT INTO `goods` VALUES ('21', '保健品1', '799', '108', '6', '3', '金色', 'time.jpg', '1', '', '2');
+INSERT INTO `goods` VALUES ('21', '保健品1', '799', '104', '6', '3', '金色', 'time.jpg', '1', '', '6');
 INSERT INTO `goods` VALUES ('23', '保健品1', '1099', '99', '6', '3', '蓝色', 'time.jpg', '1', '', '1');
 INSERT INTO `goods` VALUES ('24', '保健品1', '2199', '99', '8', '3', '黑色', 'time.jpg', '1', '', '1');
 INSERT INTO `goods` VALUES ('26', '保健品1', '666', '121', '1', '4', '粉红色', 'time.jpg', '-1', '', '7');
@@ -3934,7 +3935,7 @@ INSERT INTO `goods` VALUES ('31', '保健品1', '3999', '100', '3', '3', '白色
 INSERT INTO `goods` VALUES ('32', '保健品1', '2199', '99', '3', '4', '蓝色', 'time.jpg', '1', '', '1');
 
 -- ----------------------------
--- Table structure for `goods_type`
+-- Table structure for goods_type
 -- ----------------------------
 DROP TABLE IF EXISTS `goods_type`;
 CREATE TABLE `goods_type` (
@@ -3965,7 +3966,7 @@ INSERT INTO `goods_type` VALUES ('10', '其他', null, '1', '|11|', '-1');
 INSERT INTO `goods_type` VALUES ('11', '更多', null, '1', null, '1');
 
 -- ----------------------------
--- Table structure for `guess`
+-- Table structure for guess
 -- ----------------------------
 DROP TABLE IF EXISTS `guess`;
 CREATE TABLE `guess` (
@@ -3979,7 +3980,7 @@ CREATE TABLE `guess` (
   KEY `guess_user` (`guess_user`),
   CONSTRAINT `guess_ibfk_1` FOREIGN KEY (`guess_goods`) REFERENCES `goods` (`goods_Id`),
   CONSTRAINT `guess_ibfk_2` FOREIGN KEY (`guess_user`) REFERENCES `users` (`user_Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=91 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=95 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of guess
@@ -4063,15 +4064,19 @@ INSERT INTO `guess` VALUES ('81', '32', '2', '-1', '10');
 INSERT INTO `guess` VALUES ('82', '1', '2', '-1', '14');
 INSERT INTO `guess` VALUES ('83', '1', '1', '-1', '15');
 INSERT INTO `guess` VALUES ('84', '2', '8', '-1', '15');
-INSERT INTO `guess` VALUES ('85', '3', '2', '-1', '15');
+INSERT INTO `guess` VALUES ('85', '3', '3', '1', '15');
 INSERT INTO `guess` VALUES ('86', '18', '1', '-1', '15');
 INSERT INTO `guess` VALUES ('87', '2', '2', '-1', '14');
 INSERT INTO `guess` VALUES ('88', '20', '2', '-1', '15');
 INSERT INTO `guess` VALUES ('89', '15', '1', '-1', '15');
 INSERT INTO `guess` VALUES ('90', '4', '1', '-1', '15');
+INSERT INTO `guess` VALUES ('91', '14', '1', '-1', '15');
+INSERT INTO `guess` VALUES ('92', '21', '1', '1', '15');
+INSERT INTO `guess` VALUES ('93', '16', '1', '-1', '15');
+INSERT INTO `guess` VALUES ('94', '12', '1', '-1', '15');
 
 -- ----------------------------
--- Table structure for `memory`
+-- Table structure for memory
 -- ----------------------------
 DROP TABLE IF EXISTS `memory`;
 CREATE TABLE `memory` (
@@ -4091,7 +4096,7 @@ INSERT INTO `memory` VALUES ('5', '类别5');
 INSERT INTO `memory` VALUES ('6', '类别6');
 
 -- ----------------------------
--- Table structure for `order`
+-- Table structure for order
 -- ----------------------------
 DROP TABLE IF EXISTS `order`;
 CREATE TABLE `order` (
@@ -4114,7 +4119,7 @@ CREATE TABLE `order` (
 -- Records of order
 -- ----------------------------
 INSERT INTO `order` VALUES ('05914de698344d9786d9ab6e5838c9f5', '9', '2018-08-13', '3299', '5', '纳尔', '19512451235', '浙江省嘉兴市嘉善县浙江大学', '654874152141235');
-INSERT INTO `order` VALUES ('126a5523fa40485cbf50ead8e8c47217', '7', '2018-08-13', '172893', '5', '玲玲', '15748513654', '上海市市辖区卢湾区上海大学', '85241523654741');
+INSERT INTO `order` VALUES ('126a5523fa40485cbf50ead8e8c47217', '7', '2018-08-13', '172893', '-1', '玲玲', '15748513654', '上海市市辖区卢湾区上海大学', '85241523654741');
 INSERT INTO `order` VALUES ('13c206cd41bb43abaa6cb28777dfcfa2', '4', '2018-08-13', '8097', '5', '明明', '18745487440', '安徽省蚌埠市禹会区安徽人才学院', '98745123108412');
 INSERT INTO `order` VALUES ('24ed6939eac041a2904713bf19fe7f42', '9', '2018-08-13', '4549', '2', '纳尔', '19512451235', '浙江省嘉兴市嘉善县浙江大学', null);
 INSERT INTO `order` VALUES ('267d1989ab534b6c96076f4d5afa4e44', '4', '2018-08-13', '14897', '5', '明明', '18745487440', '安徽省蚌埠市禹会区安徽人才学院', '98547412543214');
@@ -4126,15 +4131,17 @@ INSERT INTO `order` VALUES ('557732cf831948cfa4f2206bdd2ec470', '5', '2018-08-13
 INSERT INTO `order` VALUES ('703197b3f3164cc18022e31a3b24436f', '10', '2018-08-13', '20192', '5', '飞飞', '18547512541', '山东省青岛市黄岛区山东大学', '84152147845124');
 INSERT INTO `order` VALUES ('7108ba607cac40b58b9f60e4b770ce59', '15', '2019-03-14', '13196', '2', '寒冰', '18741254135', '江苏省苏州市金阊区江苏大学城', null);
 INSERT INTO `order` VALUES ('8de21ee9dd1e4019b46d1e8cc17cbdb6', '15', '2019-03-12', '13896', '2', '阿达', '1231231231', '北京市市辖区东城区阿达', null);
+INSERT INTO `order` VALUES ('8f4ee88a5632414491a3b40156560934', '15', '2019-09-18', '11997', '2', '寒冰', '18741254135', '江苏省苏州市金阊区江苏大学城', null);
 INSERT INTO `order` VALUES ('919f60f3cd4e4e4fa18054a01eeaf608', '5', '2018-08-13', '5717', '5', '康康', '14795414785', '江苏省淮安市涟水县江苏人才大学', '98714251474152');
 INSERT INTO `order` VALUES ('b5a787c3a55942669029c33bed4be810', '4', '2018-08-13', '14897', '5', '明明', '18745487440', '安徽省蚌埠市禹会区安徽人才学院', '52648741542148');
 INSERT INTO `order` VALUES ('cf438ebe971c4fe898a9fbd890d7a6fd', '6', '2018-08-13', '15461', '4', '小小', '18745214569', '江西省萍乡市湘东区江西大学', '36512478451247');
 INSERT INTO `order` VALUES ('d4afe4f0f2a941a89eca638000eb273a', '9', '2018-08-13', '5198', '1', '纳尔', '19512451235', '浙江省嘉兴市嘉善县浙江大学', null);
+INSERT INTO `order` VALUES ('e61ea3c7701c4d9cba9fa37d32d977cf', '15', '2019-09-18', '6795', '2', '寒冰', '18741254135', '江苏省苏州市金阊区江苏大学城', null);
 INSERT INTO `order` VALUES ('eac54dc71e504b2883152ef90f1324ad', '4', '2018-08-13', '599', '5', '明明', '18745487440', '安徽省蚌埠市禹会区安徽人才学院', '84751542141014');
 INSERT INTO `order` VALUES ('eb334c859ddf4a18acf7601b53e710a4', '9', '2018-08-13', '3299', '2', '纳尔', '19512451235', '浙江省嘉兴市嘉善县浙江大学', null);
 
 -- ----------------------------
--- Table structure for `order_detail`
+-- Table structure for order_detail
 -- ----------------------------
 DROP TABLE IF EXISTS `order_detail`;
 CREATE TABLE `order_detail` (
@@ -4148,7 +4155,7 @@ CREATE TABLE `order_detail` (
   KEY `detailGoods` (`detail_Goods`),
   CONSTRAINT `order_detail_ibfk_1` FOREIGN KEY (`detail_Order`) REFERENCES `order` (`order_Id`),
   CONSTRAINT `order_detail_ibfk_2` FOREIGN KEY (`detail_Goods`) REFERENCES `goods` (`goods_Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=148 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=151 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of order_detail
@@ -4214,9 +4221,12 @@ INSERT INTO `order_detail` VALUES ('144', '8de21ee9dd1e4019b46d1e8cc17cbdb6', '2
 INSERT INTO `order_detail` VALUES ('145', '8de21ee9dd1e4019b46d1e8cc17cbdb6', '3', '3999', '1');
 INSERT INTO `order_detail` VALUES ('146', '7108ba607cac40b58b9f60e4b770ce59', '2', '13196', '4');
 INSERT INTO `order_detail` VALUES ('147', '3af3b4fc3f9c46e68470419c3dc08075', '15', '8398', '2');
+INSERT INTO `order_detail` VALUES ('148', 'e61ea3c7701c4d9cba9fa37d32d977cf', '4', '3599', '1');
+INSERT INTO `order_detail` VALUES ('149', 'e61ea3c7701c4d9cba9fa37d32d977cf', '21', '3196', '4');
+INSERT INTO `order_detail` VALUES ('150', '8f4ee88a5632414491a3b40156560934', '3', '11997', '3');
 
 -- ----------------------------
--- Table structure for `permissions`
+-- Table structure for permissions
 -- ----------------------------
 DROP TABLE IF EXISTS `permissions`;
 CREATE TABLE `permissions` (
@@ -4240,7 +4250,7 @@ INSERT INTO `permissions` VALUES ('1', '12');
 INSERT INTO `permissions` VALUES ('1', '13');
 
 -- ----------------------------
--- Table structure for `provinces`
+-- Table structure for provinces
 -- ----------------------------
 DROP TABLE IF EXISTS `provinces`;
 CREATE TABLE `provinces` (
@@ -4289,7 +4299,7 @@ INSERT INTO `provinces` VALUES ('810000', '香港特别行政区');
 INSERT INTO `provinces` VALUES ('820000', '澳门特别行政区');
 
 -- ----------------------------
--- Table structure for `role`
+-- Table structure for role
 -- ----------------------------
 DROP TABLE IF EXISTS `role`;
 CREATE TABLE `role` (
@@ -4306,7 +4316,7 @@ INSERT INTO `role` VALUES ('2', '商店管理员');
 INSERT INTO `role` VALUES ('3', '用户管理员');
 
 -- ----------------------------
--- Table structure for `users`
+-- Table structure for users
 -- ----------------------------
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
@@ -4328,7 +4338,7 @@ INSERT INTO `users` VALUES ('5', '康康', 'e10adc3949ba59abbe56e057f20f883e', '
 INSERT INTO `users` VALUES ('6', '小小', 'e10adc3949ba59abbe56e057f20f883e', '13844445555', '151@qq.com', '1', '头像2.jpg');
 INSERT INTO `users` VALUES ('7', '玲玲', 'e10adc3949ba59abbe56e057f20f883e', '12345678901', '111@qq.com', '1', '头像3.jpg');
 INSERT INTO `users` VALUES ('8', '羽羽', 'e10adc3949ba59abbe56e057f20f883e', '18803836187', '12121@qq.com', '2', '头像4.jpg');
-INSERT INTO `users` VALUES ('9', 'lina', 'e10adc3949ba59abbe56e057f20f883e', '18803836887', '4151215@qq.com', '1', '头像5.jpg');
+INSERT INTO `users` VALUES ('9', 'lina', 'e10adc3949ba59abbe56e057f20f883e', '18803836887', '4151215@qq.com', '2', '头像5.jpg');
 INSERT INTO `users` VALUES ('10', '飞飞', 'e10adc3949ba59abbe56e057f20f883e', '18803541254', 'gdsgfsds@qq.com', '1', '头像7.jpg');
 INSERT INTO `users` VALUES ('12', '唐唐', 'e10adc3949ba59abbe56e057f20f883e', '18876945412', '5847446884@qq.com', '1', '头像6.jpg');
 INSERT INTO `users` VALUES ('13', 'undo', 'e10adc3949ba59abbe56e057f20f883e', '18487487448', '1634166465@qq.com', '1', '头像4.jpg');
@@ -4337,7 +4347,7 @@ INSERT INTO `users` VALUES ('15', 'admin', '21232f297a57a5a743894a0e4a801fc3', '
 INSERT INTO `users` VALUES ('16', 'admin', '73acd9a5972130b75066c82595a1fae3', '12312312311', '213@QQ.COM', '1', null);
 
 -- ----------------------------
--- Table structure for `zipcode`
+-- Table structure for zipcode
 -- ----------------------------
 DROP TABLE IF EXISTS `zipcode`;
 CREATE TABLE `zipcode` (

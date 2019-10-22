@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shop:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eadc578a-0fa2-498d-a861-49db9c4bec5b" name="Default Changelist" comment="商城系统">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/AddressController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/BannerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/EvaluateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/GoodsTypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/GuessController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/MemoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/ProCityAreaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/controller/ViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Admins.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Areas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Banner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Cities.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Evaimg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Evaluate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Funs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/GoodsType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Guess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Memory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Provinces.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/entity/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/interceptor/UserLoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/listener/BannerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/listener/GoodsAttrListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/AddressMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/AddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/AdminsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/AdminsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/AreasMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/AreasMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/BannerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/BannerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/CartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/CartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/CitiesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/CitiesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/EvaimgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/EvaimgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/EvaluateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/EvaluateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/FunsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/FunsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/GoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/GoodsTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/GoodsTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/GuessMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/GuessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/MemoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/MemoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/OrderDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/ProvincesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/ProvincesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IAddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IAdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IBannerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/ICartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IEvaluateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IGoodsTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IGuessService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IMemoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IProCityAreaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IRedisEvaluateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/BannerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/EvaluateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/GoodsTypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/GuessServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/MemoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/ProCityAreaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/RedisEvaluateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/util/AlipayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/util/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/util/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/util/OrderSearchVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/util/OrderVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/util/PageValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/util/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/phonemarket/util/UUIDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/banneradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/bannerlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/evalist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/goodsadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/goodslist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/orderlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/typelist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/updatepass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/userlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/admin/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/adminlogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/paysuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/amend_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/confirm_order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/evaluate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/include/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/include/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/product_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/shopping_cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/takeorder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/jsp/userview/usercenter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/alipay-sdk-java-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/aspectjweaver-1.8.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/c3p0-0.9.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/commons-codec-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/commons-lang3-3.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/commons-net-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/commons-pool2-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/fastjson-1.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/httpclient-4.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/httpcore-4.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/mybatis-3.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/mybatis-paginator-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/pagehelper-4.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/quartz-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/slf4j-log4j12-1.6.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-jms-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-messaging-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/pro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/ajaxfileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/cropper/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/cropper/sitelogo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/jquery.1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/skin/family/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/skin/lists/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/unslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/resources/js/wonderland.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/0331201983fe47ce93d98760adaa6814.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/0b14f95837764dc1b35d28d6d564e5b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/0b6aefdd82e548eba90fda47a34b704b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/0edf71a0e6d04548aaaa885f1c377bff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/1461c752621a4a67a9d2f7c3db9efca7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/212c30051b5b46edb45b1335638f20fe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/21cfd8848b7247d38bd6b1c3398c79ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/22658f239aed42edb22295af3085cb66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/2df91d2014304022a5cbea04eb1dafcc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/2f2326496224482990865b11402bdb0d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/303e6c7bd0dc4f9da20ca830a0f81c6d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/3166877c1b184c3ab53652f0949d3148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/396db52ae3ad4acdac83fbb54a7245d5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/3998c5c063ff462ba3749ae5f2e3e4b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/3c48f0c664414f76b6b0f4b1669c70b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/3e846fa8efe14edc9d626de64f830b29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/4245b3376ae14c32b8cf5acc288efd15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/441e933ddd3d4e73abc07cb5df5e7bf4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/4441112b223f43a8b25470ac12cd240f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/474a65c7f1484e9496fc47950804c1ec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/4ebf91bb23f847d0826d4b25dbcee5fc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/4efbf460634845d5a900abc7009f2d7b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/5e97ee8df1e2474681980fa10674fff8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/602c035b6e8a4850adb86712e278f33c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/6acbb06d73644a80b793c52d923aa557.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/6bcfe34d1e2f482eb884b2bda7501a0c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/75c073c48fbb40f4b9f20eaf559d4dde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/7d56572998484ed1a772f798d83847d2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/7e62fb2b29e54862b190b3e31b2308e8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/831c3c36e8d74fbcb5cbd046e82e9d2e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/8c9101e8fff94159a84d3cbe712f6d21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/8e10dd42be22411397768dabdab78e91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/8ec6dc6e457c48699f24426f092cb5d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/8fa96f067bb54609a2cc8c00432dfe06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/906f443a9a6c4285b103dc3ced931730.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/90792b71a06546b88b39925842a200a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/90bafd86a5f6442d84ffdc25efd0c6fe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/93391d32b5a9468d8f3103eee825942b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/93e66733941448e5a027274e18ae0681.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/9497ff7a72f94ba9a2b646717a0f6a79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/OPPO R11s Plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/OPPO R15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/a2811393142940a089b12ba322c44303.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/aebb5d3aabec4303b4f99c73617e6087.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/b6d3e2f294a844148a42f57540ef44df.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/b9c1de4e70144d95ac9680c0b3f9001b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/banner9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/bbe220b830554977abfaa23b4a33f6ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/bdc31ddf67cf4573b40ef510c23a26b6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/c3e30cdaee574da3bb6e96a6de096d24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/c993a8b2f2654837a259ebe2a3d3f7b6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/d02f818561b64c3195fe9fdddd2005d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/d24aaa3b73e4490583a86c3c43ee5ac0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/d88cc81fb35d4f4e9bc38f838c489ce6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/d9281b85a54947abacb847bc82788825.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/d9b1951be8af44879f94e5cae6c28085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/d9e4b433c2fe4f27af1a088758920079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/e1e18e825cd7456d9bea6ad606a6efce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/e5fabe89df7d468bad8aa2863aca81b7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/ee8865426b644b7c966248b39494240e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/emptycart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/f53de042433d4df094e03de10ff5f7ca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/headpic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/iPhone 8plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/iPhone6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/iPhone6s plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/iPhone7 plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/iPhone7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/iPhone8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/iPhoneX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/paysuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/tima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/time.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/三星C9 Pro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/三星S8+.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/三星note8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/三星s9+.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/华为 HUAWEI nova.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/华为P10 plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/华为mate10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/华为畅享6s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/华为荣耀7X.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/华为荣耀9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/华为荣耀9青春版.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/头像1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/头像2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/头像3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/头像4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/头像5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/头像6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/头像7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/小米5X.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/小米6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/小米MIX2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/小米note3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/红米5A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/红米5plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/红米note4X.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/红米note5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/谷歌pixel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/魅族Pro6s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/魅族Pro7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/魅蓝E2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/魅蓝X.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/魅蓝note5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/魅蓝note6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/AddressController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/BannerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/EvaluateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/GoodsTypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/GuessController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/MemoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/ProCityAreaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/controller/ViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Admins.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Areas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Banner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Cities.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Evaimg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Evaluate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Funs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/GoodsType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Guess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Memory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Provinces.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/entity/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/interceptor/UserLoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/listener/BannerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/listener/GoodsAttrListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/AddressMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/AddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/AdminsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/AdminsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/AreasMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/AreasMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/BannerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/BannerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/CartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/CartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/CitiesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/CitiesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/EvaimgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/EvaimgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/EvaluateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/EvaluateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/FunsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/FunsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/GoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/GoodsTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/GoodsTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/GuessMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/GuessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/MemoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/MemoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/OrderDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/ProvincesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/ProvincesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IAddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IAdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IBannerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/ICartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IEvaluateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IGoodsTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IGuessService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IMemoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IProCityAreaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IRedisEvaluateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/BannerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/EvaluateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/GoodsTypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/GuessServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/MemoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/ProCityAreaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/RedisEvaluateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/util/AlipayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/util/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/util/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/util/OrderSearchVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/util/OrderVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/util/PageValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/util/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/phonemarket/util/UUIDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonemarket2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/phonemarket2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phonemarket/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phonemarket/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/adminlogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/adminlogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/paysuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/paysuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/amend_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/amend_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/confirm_order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/confirm_order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/include/foot.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/include/foot.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/include/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/shopping_cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/shopping_cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/takeorder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/takeorder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/usercenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/userview/usercenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/404.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/error.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/phonemarket/interceptor/UserLoginInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/userview/include/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/adminlogin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/paysuccess.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1349">
+              <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>商城</find>
+      <find>产品商城</find>
+      <find>保健产品商城</find>
+      <find>乐享手机商城</find>
+      <find>乐购手机商城</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>天海广纳商城演示</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\HelloWorld\IntelliJ IDEA 2019.1.3\workspace\shop-SSM-layui</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="商城ssm" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/userview/include/header.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/adminlogin.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/paysuccess.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="102" />
+    <option name="y" value="30" />
+    <option name="width" value="1947" />
+    <option name="height" value="1107" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../apache-tomcat-8.5.42/lib/servlet-api.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.42" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.42" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shop_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shop_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shop-SSM-layui" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55440" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shop:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eadc578a-0fa2-498d-a861-49db9c4bec5b" name="Default Changelist" comment="" />
+      <created>1568781843808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568781843808</updated>
+      <workItem from="1568781847328" duration="3570000" />
+      <workItem from="1571046165326" duration="1476000" />
+      <workItem from="1571730377700" duration="1288000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6334000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25788197" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.53108346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004042" side_tool="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.4995958" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="商城系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="商城系统" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/phonemarket/interceptor/UserLoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/userview/include/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/paysuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/adminlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>shop:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>shop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>servlet-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

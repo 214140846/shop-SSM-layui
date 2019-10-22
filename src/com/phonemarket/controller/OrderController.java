@@ -246,7 +246,7 @@ public class OrderController {
 		try {
 			out_trade_no = new String(orderId.getBytes("ISO-8859-1"),"UTF-8");
 			total_amount = new String((order.getOrderPrice()+"").getBytes("ISO-8859-1"),"UTF-8");
-			subject = new String("乐购手机商城");
+			subject = new String("天海广纳商城演示");
 		} catch (UnsupportedEncodingException e1) {
 			e1.printStackTrace();
 		}
